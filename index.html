@@ -34,27 +34,6 @@
   .jungle-tree{left:2%;bottom:6%;font-size:4.2rem;animation:drift 7s ease-in-out infinite}.jungle-vine{right:1%;top:10%;font-size:3.4rem;animation:drift 8s ease-in-out -2s infinite}.jungle-parrot{left:12%;top:22%;font-size:2.3rem;animation:drift 6s ease-in-out -1s infinite}.jungle-butterfly{right:14%;bottom:27%;font-size:1.8rem;animation:drift 5s ease-in-out -3s infinite}
   .ocean-wave{left:-3%;bottom:1%;font-size:5rem;animation:drift 6s ease-in-out infinite}.ocean-coral{right:3%;bottom:8%;font-size:3.7rem;animation:drift 7s ease-in-out -2s infinite}.ocean-fish{left:10%;top:21%;font-size:2.35rem;animation:drift 5s ease-in-out -1s infinite}.ocean-turtle{right:8%;top:35%;font-size:2.8rem;animation:drift 8s ease-in-out -3s infinite}.ocean-bubbles{left:5%;bottom:28%;font-size:2.1rem;animation:drift 5s ease-in-out -2s infinite}
 </style>
-<style>
-  /* 高清插画背景：保留中央清晰区域，避免影响题目阅读。 */
-  body{background:#06133a url("space-background-v1.png") center center/cover fixed no-repeat!important}
-  body[data-theme="jungle"]{background:#0f3327 url("jungle-background-v1.png") center center/cover fixed no-repeat!important}
-  body[data-theme="ocean"]{background:#063e73 url("ocean-background-v1.png") center center/cover fixed no-repeat!important}
-  .space-decor span{display:none!important}
-  .panel{background:rgba(255,255,255,.93);backdrop-filter:blur(12px);box-shadow:0 10px 0 rgba(31,23,83,.18),0 20px 42px rgba(3,13,43,.34)}
-  @media(max-width:700px){body,body[data-theme="jungle"],body[data-theme="ocean"]{background-attachment:scroll}}
-</style>
-<style>
-  /* 主题背景以独立属性锁定，避免桌面端旧背景规则覆盖插画。 */
-  body[data-theme="space"]{background-image:url("space-background-v1.png")!important;background-color:#06133a!important;background-position:center!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
-  body[data-theme="jungle"]{background-image:url("jungle-background-v1.png")!important;background-color:#0f3327!important;background-position:center!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
-  body[data-theme="ocean"]{background-image:url("ocean-background-v1.png")!important;background-color:#063e73!important;background-position:center!important;background-size:cover!important;background-repeat:no-repeat!important;background-attachment:fixed!important}
-  /* 统一为插画卡片语言：移除开始页最突兀的 Emoji 主图标。 */
-  #brandIcon{display:inline-block;width:1.05em;height:1.05em;vertical-align:-.13em;font-size:0;border-radius:50% 50% 44% 44%;background:radial-gradient(circle at 35% 28%,#fff 0 7%,transparent 8%),linear-gradient(145deg,#7cecff,#3868ff 58%,#27236f);border:2px solid #d9f9ff;box-shadow:0 0 12px #86edff}
-  #startHero,#modeHero{width:clamp(116px,28vw,166px);height:clamp(116px,28vw,166px);margin:2px auto 10px;font-size:0;border-radius:34% 66% 55% 45%/48% 44% 56% 52%;background:url("space-background-v1.png") center/cover;border:4px solid #e5fbff;box-shadow:inset 0 0 30px #a9e8ff99,0 14px 28px #08133c77}
-  body[data-theme="jungle"] #startHero,body[data-theme="jungle"] #modeHero{background-image:url("jungle-background-v1.png");border-color:#e9ffd7;box-shadow:inset 0 0 30px #c2ff9399,0 14px 28px #082c1c77}
-  body[data-theme="ocean"] #startHero,body[data-theme="ocean"] #modeHero{background-image:url("ocean-background-v1.png");border-color:#dcfcff;box-shadow:inset 0 0 30px #8ceeff99,0 14px 28px #05275677}
-  @media(max-width:700px){body[data-theme]{background-attachment:scroll!important}}
-</style>
 </head>
 <body>
 <div class="space-decor" aria-hidden="true"><span class="comet"></span><span class="ship"></span><span class="ufo"></span><span class="satellite">🛰️</span><span class="jungle-tree">🌴</span><span class="jungle-vine">🌿</span><span class="jungle-parrot">🦜</span><span class="jungle-butterfly">🦋</span><span class="ocean-wave">🌊</span><span class="ocean-coral">🪸</span><span class="ocean-fish">🐠</span><span class="ocean-turtle">🐢</span><span class="ocean-bubbles">🫧</span></div>
